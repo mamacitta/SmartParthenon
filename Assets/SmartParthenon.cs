@@ -34,7 +34,6 @@ public class SmartParthenon : MonoBehaviour {
         var pillar = Instantiate(cylinderPrefab, transform);
         pillar.transform.localPosition = new Vector3(floor_width * 0.81f / 2.0f - pillar_radius, floor_height*2.5f + pillar_height/2, floor_depth * 0.81f / 2.0f - pillar_radius);
         pillar.transform.localScale = new Vector3(pillar_radius*2, pillar_height/2, pillar_radius*2);
-
-
+        
     }
 }
